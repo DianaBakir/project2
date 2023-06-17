@@ -1,0 +1,8 @@
+def check_palindrome(s): #проверка
+    return s == s[::-1] # возвращает только когда строка равна ее перевернутой копии
+
+s = "лепсспел"
+print(check_palindrome(s))  # Выведет True
+
+s = "helloworld"
+print(check_palindrome(s))  # Выведет False
